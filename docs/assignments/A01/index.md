@@ -5,7 +5,7 @@
 
 ## Analyze
 ## Task A: Portfolio Analysis
-**Online Engineering Portfolio: https://jacobschwartz.framer.ai/**    
+__**Online Engineering Portfolio: https://jacobschwartz.framer.ai/**__
 
 **a.  Navigability : can a reader locate any specific assignment or piece of work in under 60 seconds?**
 Projects are displayed individually with descriptive names and direct links to their project pages. This allows a reader to identify a relevant project without opening several unrelated pages. The structure is effective for an employer reviewing multiple projects quickly.
@@ -19,7 +19,7 @@ This portfolio provides stronger evidence of engineering decisions. For example,
 **d.  Professional tone : does the language meet the standard of a document you would hand to an employer?**
 The portfolio uses technical language and focuses on engineering methods, project objectives, testing, and results. The descriptions are written for someone evaluating technical experience rather than for a general audience.
 
-**Github Engineering Portfolio: https://github.com/NateKarau61/Engineering-Portfolio**
+__**Github Engineering Portfolio: https://github.com/NateKarau61/Engineering-Portfolio**__
 
 **a.  Navigability : can a reader locate any specific assignment or piece of work in under 60 seconds?**
 The portfolio is easy to navigate from the main website because projects are separated into individual sections. However, the GitHub repository uses labels such as “Project_0” through “Project_6,” which makes it harder to identify a specific project without opening the folders. The website is more efficient for quickly locating work than the repository itself.
