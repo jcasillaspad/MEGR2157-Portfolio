@@ -44,7 +44,14 @@ The primary function of the manual can opener is to apply a cutting force to the
 **ii.  State one assumption that makes the model valid for this product.**
 
 **c.  Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.**
-![GoodCook Can Opener](IMG_8765.jpeg)
+![Upper Handle and Cutting Mechanism](IMG_8765.jpeg)
+The upper handle is a long metal plate that provides a lever arm for the user's hand and supports the cutting mechanism. The cutting wheel has a sharp circular edge that concentrates force onto a small area of the can rim, allowing it to penetrate and cut the metal as the wheel rotates. The toothed drive wheel provides traction against the can rim. Its teeth increase the contact between the wheel and rim so that rotational motion can be transferred into movement around the can.
+
+![Lower Handle and Pressure Wheel](IMG_8765.jpeg)
+The lower handle provides the opposing force that clamps the can between the cutting and drive mechanisms. The smooth pressure wheel contacts the underside of the can rim and rotates as the opener moves around the can. The pressure wheel is angled so that it contacts the underside of the rim while reducing contact with the vertical wall of the can. This reduces unnecessary friction while maintaining the force needed to keep the can engaged with the cutting mechanism.
+
+![Drive Shaft](IMG_8765.jpeg)
+The drive shaft transfers torque from the turning knob to the toothed drive wheel. Its cylindrical geometry allows it to rotate while maintaining the alignment of the drive and cutting mechanisms. The shaft's position also places the wheels at the correct location relative to the can rim.
 
 **d.  Using patent research, identify the patent number and author(s). Then:**
 **i.  List at least two alternative solutions or devices that solve the same primary function.**
