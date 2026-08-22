@@ -34,6 +34,21 @@ The portfolio shows what projects were completed but provides limited informatio
 The portfolio uses engineering-specific terminology such as CAD, GD&T, DFM, FMEA, and machining. This makes the content appropriate for an engineering employer and keeps the focus on technical skills and project experience.
 
 ## Task B: Product Analysis
+**a.  What is the primary function of this product? State it as an engineering function : what mechanical task does it perform? State it precisely, not as a consumer description.**
+The primary function of the manual can opener is to apply a cutting force to the rim of a metal can while simultaneously advancing the cutting mechanism around the can. The user provides rotational input through the turning knob. This rotation is transferred to the toothed drive wheel, which grips the can rim and moves the opener while the cutting wheel separates the lid from the can.
+
+**b.  Identify the governing model : what equation or physical principle governs its primary behavior?**
+**i.  State the model and identify its variables.**
+
+
+**ii.  State one assumption that makes the model valid for this product.**
+
+**c.  Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.**
+
+**d.  Using patent research, identify the patent number and author(s). Then:**
+**i.  List at least two alternative solutions or devices that solve the same primary function.**
+
+**ii.  Identify one design decision the original engineer made : something you can see in the patent or geometry : and explain why you think they made that choice.**
 
 ## Decide
 
