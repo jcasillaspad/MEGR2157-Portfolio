@@ -44,6 +44,7 @@ The primary function of the manual can opener is to apply a cutting force to the
 **ii.  State one assumption that makes the model valid for this product.**
 
 **c.  Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.**
+![GoodCook Can Opener](IMG_8765.jpeg)
 
 **d.  Using patent research, identify the patent number and author(s). Then:**
 **i.  List at least two alternative solutions or devices that solve the same primary function.**
