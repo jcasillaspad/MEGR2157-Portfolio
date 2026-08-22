@@ -33,6 +33,8 @@ The portfolio shows what projects were completed but provides limited informatio
 **d.  Professional tone : does the language meet the standard of a document you would hand to an employer?**
 The portfolio uses engineering-specific terminology such as CAD, GD&T, DFM, FMEA, and machining. This makes the content appropriate for an engineering employer and keeps the focus on technical skills and project experience.
 
+## Task B: Product Analysis
+
 ## Decide
 
 
