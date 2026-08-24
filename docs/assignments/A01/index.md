@@ -59,7 +59,12 @@ The drive shaft transfers torque from the turning knob to the toothed drive whee
 **ii.  Identify one design decision the original engineer made : something you can see in the patent or geometry : and explain why you think they made that choice.**
 
 ## Decide
+**Homepage Identity** The homepage will immediately identify this site as my mechanical engineering portfolio and explain that it contains my engineering assignments, analysis, design decisions, and supporting documentation. I will organize the content by assignment so a hiring manager or engineering colleague can quickly locate a specific project and understand how the work was completed. The homepage will also state that the portfolio focuses on documented engineering reasoning, including assumptions, calculations, decisions, and results, so the reader knows what standard to expect from the work.
 
+**One Intentional Customization** I changed the color scheme of the template to use a darker blue accent color. This better supports the requirement for a professional engineering portfolio by making headings and navigation easier to distinguish while maintaining a simple appearance. The default color scheme did not provide enough visual separation between sections, so the change improves navigation without changing the overall structure of the template.
+
+**Documentation Standard** Every assignment entry will state the governing model, assumptions, design decisions, supporting evidence, and results with enough detail that another engineering student could reproduce my work without asking me for additional information.
 
 ## Communicate
 
+Check out the 'About Me' section.
