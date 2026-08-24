@@ -1,7 +1,7 @@
 # A1 – [Build Your Professional Portfolio]
 
 ## Objective
-
+The objective of A1 is to establish a professional engineering portfolio that demonstrates my ability to analyze mechanical systems, make and justify engineering decisions, and communicate my work clearly. Through analyzing existing engineering portfolios, evaluating a mechanical product, documenting design decisions, and establishing a documentation standard, I will create a foundation for presenting my engineering work throughout the semester.
 
 ## Analyze
 ## Task A: Portfolio Analysis
@@ -38,8 +38,9 @@ The portfolio uses engineering-specific terminology such as CAD, GD&T, DFM, FMEA
 The primary function of the manual can opener is to apply a cutting force to the rim of a metal can while simultaneously advancing the cutting mechanism around the can. The user provides rotational input through the turning knob. This rotation is transferred to the toothed drive wheel, which grips the can rim and moves the opener while the cutting wheel separates the lid from the can.
 
 **b.  Identify the governing model : what equation or physical principle governs its primary behavior?**
-**i.  State the model and identify its variables.**
-
+  **i.  State the model and identify its variables.**
+The primary governing model is the torque relationship: **Torque = r X F**
+The torque is applied to the 
 
 **ii.  State one assumption that makes the model valid for this product.**
 
@@ -54,14 +55,14 @@ The lower handle provides the opposing force that clamps the can between the cut
 The drive shaft transfers torque from the turning knob to the toothed drive wheel. Its cylindrical geometry allows it to rotate while maintaining the alignment of the drive and cutting mechanisms. The shaft's position also places the wheels at the correct location relative to the can rim.
 
 **d.  Using patent research, identify the patent number and author(s). Then:**
-**i.  List at least two alternative solutions or devices that solve the same primary function.**
+  **i.  List at least two alternative solutions or devices that solve the same primary function.**
 
 **ii.  Identify one design decision the original engineer made : something you can see in the patent or geometry : and explain why you think they made that choice.**
 
 ## Decide
 **Homepage Identity** The homepage will immediately identify this site as my mechanical engineering portfolio and explain that it contains my engineering assignments, analysis, design decisions, and supporting documentation. I will organize the content by assignment so a hiring manager or engineering colleague can quickly locate a specific project and understand how the work was completed. The homepage will also state that the portfolio focuses on documented engineering reasoning, including assumptions, calculations, decisions, and results, so the reader knows what standard to expect from the work.
 
-**One Intentional Customization** I changed the color scheme of the template to use a darker blue accent color. This better supports the requirement for a professional engineering portfolio by making headings and navigation easier to distinguish while maintaining a simple appearance. The default color scheme did not provide enough visual separation between sections, so the change improves navigation without changing the overall structure of the template.
+**One Intentional Customization** I changed the color scheme of the template to use a lighter blue accent color. This better supports the requirement for a professional engineering portfolio by making headings and navigation easier to distinguish while maintaining a simple appearance. The default color scheme did not provide enough visual separation between sections, so the change improves navigation without changing the overall structure of the template.
 
 **Documentation Standard** Every assignment entry will state the governing model, assumptions, design decisions, supporting evidence, and results with enough detail that another engineering student could reproduce my work without asking me for additional information.
 
