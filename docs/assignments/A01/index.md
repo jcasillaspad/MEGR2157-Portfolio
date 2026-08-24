@@ -40,9 +40,10 @@ The primary function of the manual can opener is to apply a cutting force to the
 **b.  Identify the governing model : what equation or physical principle governs its primary behavior?**
   **i.  State the model and identify its variables.**
 The primary governing model is the torque relationship: **Torque = r X F**
-The torque is applied to the 
+The torque is applied to the can opener's shaft, F is the tangential force applied by the user to the turning knob, and r is the distance from the center of rotation to the point where the force is applied. The torque is transferred through the shaft to the drive wheel, which rotates against the can rim and advances the opener.
 
 **ii.  State one assumption that makes the model valid for this product.**
+I assume that the drive wheel does not significantly slip against the can rim. This allows the rotational motion of the drive wheel to be treated as the motion that advances the can opener around the can.
 
 **c.  Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.**
 ![Upper Handle and Cutting Mechanism](uppershaft.jpeg)
@@ -54,10 +55,12 @@ The lower handle provides the opposing force that clamps the can between the cut
 ![Drive Shaft](cuttingwheel.jpeg)
 The drive shaft transfers torque from the turning knob to the toothed drive wheel. Its cylindrical geometry allows it to rotate while maintaining the alignment of the drive and cutting mechanisms. The shaft's position also places the wheels at the correct location relative to the can rim.
 
-**d.  Using patent research, identify the patent number and author(s). Then:**
-  **i.  List at least two alternative solutions or devices that solve the same primary function.**
+**d.  Using patent research, identify the patent number and author(s).** The patent most similar to my can opener is U.S. Patent No. 3,059,333, “Right and Left-Hand Can Opener,” invented by William J. Landry. The patent describes a hand-operated can opener with two grasping handles, a cutting wheel, a feed wheel, and an operating handle that rotates the feed wheel.
+  **Then: i.  List at least two alternative solutions or devices that solve the same primary function.**
+  Puncture-style can opener: Uses a sharp blade to puncture the top of the can and then cuts around the lid using a lever. 
+ Side-cutting rotary can opener: Uses a rotating feed wheel and cutting wheel to grip the can rim and move the opener around the can while cutting the lid.
 
-**ii.  Identify one design decision the original engineer made : something you can see in the patent or geometry : and explain why you think they made that choice.**
+**ii.  Identify one design decision the original engineer made : something you can see in the patent or geometry : and explain why you think they made that choice.** One design decision was placing the cutting wheel and feed wheel on opposite sides of the can rim. The feed wheel grips the rim and advances the can opener while the cutting wheel applies the force needed to cut the metal. I believe the engineer chose this arrangement because it keeps the can securely positioned between the two wheels while allowing the feed wheel to control the movement of the opener. The patent specifically describes the cutting and feed wheels moving toward each other to engage the can rim.
 
 ## Decide
 **Homepage Identity** The homepage will immediately identify this site as my mechanical engineering portfolio and explain that it contains my engineering assignments, analysis, design decisions, and supporting documentation. I will organize the content by assignment so a hiring manager or engineering colleague can quickly locate a specific project and understand how the work was completed. The homepage will also state that the portfolio focuses on documented engineering reasoning, including assumptions, calculations, decisions, and results, so the reader knows what standard to expect from the work.
