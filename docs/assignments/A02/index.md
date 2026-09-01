@@ -22,10 +22,24 @@ The lengths of each member can be found using simple geometry.
 
 ![Shown Member Geometry](constraints.png)
 
-**Truss Free-Body Diagrams**
+**Truss Free-Body Diagram**
 The pin at A can produce horizontal and vertical reactions, while the roller at B produces only a vertical reaction. For the FBD, only the entire truss and these five external forces need to be drawn. This is to show the overall FBD of the truss without showing the internal member forces.
 
 ![Overall FBD](constraints.png)
+
+I found the support reactions using basic equilibrium equations and moment about point B.
+
+![Support Reactions](constraints.png)
+
+**Joint Analysis**
+For the method of joints, I assumed every unknown member force was initially in tension, meaning the force arrows point away from the joint. A positive answer therefore represents tension and a negative answer represents compression.
+
+![Joint C FBD](constraints.png)
+
+![Joint A FBD](constraints.png)
+
+![Joint D FBD](constraints.png)
+
 
 
 ## Decide
