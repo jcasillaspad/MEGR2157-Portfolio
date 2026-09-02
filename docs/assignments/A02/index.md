@@ -13,32 +13,32 @@ For this design, I selected an applied load of P = 25 kN, which is within the re
 **Truss Geometry**
 I selected a five-member truss consisting of members AB, BC, CD, AD, and BD.
 
-![Drawn Truss Geometry](constraints.png)
+![Drawn Truss Geometry](drawntruss.jpeg)
 
 The geometry creates two triangular regions, BCD and BAD. This is useful because triangles provide geometric stability without requiring unnecessary additional members.
 
 **Member Lengths**
 The lengths of each member can be found using simple geometry.
 
-![Shown Member Geometry](constraints.png)
+![Shown Member Geometry](shownmember.jpeg)
 
 **Truss Free-Body Diagram**
 The pin at A can produce horizontal and vertical reactions, while the roller at B produces only a vertical reaction. For the FBD, only the entire truss and these five external forces need to be drawn. This is to show the overall FBD of the truss without showing the internal member forces.
 
-![Overall FBD](constraints.png)
+![Overall FBD](overallfbd.jpeg)
 
 I found the support reactions using basic equilibrium equations and moment about point B.
 
-![Support Reactions](constraints.png)
+![Support Reactions](supportreactions.jpeg)
 
 **Joint Analysis**
 For the method of joints, I assumed every unknown member force was initially in tension, meaning the force arrows point away from the joint. A positive answer therefore represents tension and a negative answer represents compression.
 
-![Joint C FBD](constraints.png)
+![Joint C FBD](jointc.jpeg)
 
-![Joint A FBD](constraints.png)
+![Joint A FBD](jointa.jpeg)
 
-![Joint D FBD](constraints.png)
+![Joint D FBD](jointd.jpeg)
 
 I found the internal forces to be:
 AB = -11.11 kN (Compression)
@@ -51,13 +51,13 @@ With this information, I concluded that Fmax = 47.47 kN.
 **Member Cross-Section Design**
 It is known that Fmax = 47.47 kN, the factor of safety, N = 3.5, and for A500 structured steel Fy = 50 ksi = 344.73 MPa; this is the minimum yield strength for A500 structured steel. The unknown is the minimum area.
 
-![Area Calculation](constraints.png)
+![Area Calculation](area.jpeg)
 
 With that information, I was able to find the minimum area required to be 481.91 mm^2.
 
 **Approximate Truss Weight**
 
-![Truss Weight](constraints.png)
+![Truss Weight](weight.jpeg)
 
 I was able to determine the theoretical weight of the truss members to be 13.07 kg.
 
@@ -65,11 +65,11 @@ I was able to determine the theoretical weight of the truss members to be 13.07 
 
 All four pins are required to be identical. The knowns of the pins are Vmax = 47.467 kN, yield shear strength = 170 ksi, N = 4, density = 0.278 lb/in^3. The unknowns are Apin and dpin.
 
-![Pin FBD](constraints.png)
+![Pin FBD](pin.jpeg)
 
 With this information calculated, I was able to determine the combined weight of the pins to be = 0.5970 lb.
 
-![Pin Weights](constraints.png)
+![Pin Weights](pinweights.jpeg)
 
 **CAD Construction**
 
