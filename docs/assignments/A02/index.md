@@ -71,6 +71,12 @@ With this information calculated, I was able to determine the combined weight of
 
 ![Pin Weights](constraints.png)
 
+**CAD Construction**
+
+For a simple CAD model, I selected a square hollow section with approximate dimensions 40 mm x 40 mm x 4 mm. 
+
+![Dimension Calculations](constraints.png)
+
 ## Decide
 I selected the AB-BC-CD-AD-BD geometry because it creates a stable truss while using only five structural members. A planar pin-jointed truss with four joints and three support reactions satisfies the basic determinacy relationship **m+r=2j**. For this design, **(5)+(3)=2(4) -> 8=8**, so the structure is statically determinate. This geometry was preferred over a design containing additional members because additional members would increase material volume and weight without being necessary to satisfy static determinacy.
 
