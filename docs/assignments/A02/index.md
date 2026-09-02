@@ -40,7 +40,28 @@ For the method of joints, I assumed every unknown member force was initially in 
 
 ![Joint D FBD](constraints.png)
 
+I found the internal forces to be:
+AB = -11.11 kN (Compression)
+BC = -41.67 kN (Compression)
+CD = -33.33 kN (Compression)
+AD = +13.89 kN (Tension)
+BD = +47.47 kN (Tension)
+With this information, I concluded that Fmax = 47.47 kN.
 
+**Member Cross-Section Design**
+It is known that Fmax = 47.47 kN, the factor of safety, N = 3.5, and for A500 structured steel Fy = 50 ksi = 344.73 MPa; this is the minimum yield strength for A500 structured steel. The unknown is the minimum area.
+
+![Area Calculation](constraints.png)
+
+With that information, I was able to find the minimum area required to be 481.91 mm^2.
+
+**Approximate Truss Weight**
+
+![Truss Weight](constraints.png)
+
+I was able to determine the theoretical weight of the truss members to be 13.07 kg.
+
+**Pin Design**
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
