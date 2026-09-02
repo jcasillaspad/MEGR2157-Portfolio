@@ -63,8 +63,18 @@ I was able to determine the theoretical weight of the truss members to be 13.07 
 
 **Pin Design**
 
+All four pins are required to be identical. The knowns of the pins are Vmax = 47.467 kN, yield shear strength = 170 ksi, N = 4, density = 0.278 lb/in^3. The unknowns are Apin and dpin.
+
+![Pin FBD](constraints.png)
+
+With this information calculated, I was able to determine the combined weight of the pins to be = 0.5970 lb.
+
+![Pin Weights](constraints.png)
+
 ## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
+I selected the AB-BC-CD-AD-BD geometry because it creates a stable truss while using only five structural members. A planar pin-jointed truss with four joints and three support reactions satisfies the basic determinacy relationship **m+r=2j**. For this design, **(5)+(3)=2(4) -> 8=8**, so the structure is statically determinate. This geometry was preferred over a design containing additional members because additional members would increase material volume and weight without being necessary to satisfy static determinacy.
+
+I selected P = 25 kN because it is the midpoint of the permitted loading range rather than selecting the minimum possible load simply to reduce the required cross-sectional area. The calculations showed that BD experiences the greatest member force at 47.467 kN, so that member controlled the cross-sectional-area design. A **40x40x4 mm square HSS** and **5/8 in** pins were then selected because both exceed their calculated minimum dimensions while remaining simple to manufacture and model in CAD.
 
 ## Communicate
 
