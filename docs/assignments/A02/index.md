@@ -77,7 +77,9 @@ For a simple CAD model, I had to find the dimensions of the members.
 
 ![Dimension Calculations](dimensioncalculations.png)
 
-For the members, I had to extend the ends to fit the pins in the center while maintaining the minimum required area that I had calculated earlier.
+For the members, I had to extend the ends to fit the pins in the center while maintaining the minimum required area that I had calculated earlier. I then modeled the truss in SolidWorks as one part, excluding the pins. The pins were modeled separately as cylinders using the calculated cross-sectional areas and lengths, then added to the final assembly.
+
+![Truss Part](trusspart.png)
 
 ## Decide
 I selected the AB-BC-CD-AD-BD geometry because it creates a stable truss while using only five structural members. A planar pin-jointed truss with four joints and three support reactions satisfies the basic determinacy relationship **m+r=2j**. For this design, **(5)+(3)=2(4) -> 8=8**, so the structure is statically determinate. This geometry was preferred over a design containing additional members because additional members would increase material volume and weight without being necessary to satisfy static determinacy.
