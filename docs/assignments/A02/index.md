@@ -105,6 +105,36 @@ The appropriate materials were assigned to the truss and pins. The SOLIDWORKS Ma
 
 The final measured weight of the truss was 14.3 kg, which was not far off my calculated weight of 13.97 kg.
 
+**Likelihood of Failure Modes**
+
+The truss members are made of ductile structural steel and experience either axial tension or compression. Tension members are most likely to fail by yielding before fracture, so the members were sized so that the axial stress remained below the allowable stress based on the selected safety factor. Increasing the cross-sectional area near pin holes or adding gusset plates could further reduce stress concentrations.
+
+Compression members are more likely to fail by buckling, especially when they are long and slender. Buckling can occur before the material reaches its yield strength, so member length and stiffness are important. Increasing the moment of inertia or adding bracing would reduce the likelihood of buckling.
+
+The pins are most likely to fail in shear because they transfer the member forces through the joints. The pin area was sized using the maximum internal force, the pin material shear strength, and the required safety factor. Increasing the pin diameter, using double shear, or increasing the bearing area around the pin hole would further reduce the chance of connection failure.
+
+![Joint C FBD](jointc.jpeg)
+
+![Joint A FBD](jointa.jpeg)
+
+![Joint D FBD](jointd.jpeg)
+
+**Pin Connections**
+
+The primary expected pin failure mode is shear failure because the pins are loaded in single shear. Using the specified 170 ksi shear yield strength and a safety factor of 4 gives an allowable shear stress of 42.5 ksi. Increasing the pin diameter or changing the connection to double shear would reduce the likelihood of pin failure.
+
+![Pin FBD](pin.jpeg)
+
+Sources Used:
+
+https://study.madeeasy.in/ce/design-of-steel-structures/types-of-failure
+
+https://www.fema.gov/pdf/emergency/usr/module1c2.pdf
+
+https://www.hawkins.biz/insight/steel-structure-failure-mechanisms/
+
+https://www.fixfast.com/skills-hub/what-are-the-various-failure-modes-of-fastener-connections
+
 ## Decide
 I selected the AB-BC-CD-AD-BD geometry because it creates a stable truss while using only five structural members. A planar pin-jointed truss with four joints and three support reactions satisfies the basic determinacy relationship **m+r=2j**. For this design, **(5)+(3)=2(4) -> 8=8**, so the structure is statically determinate. This geometry was preferred over a design containing additional members because additional members would increase material volume and weight without being necessary to satisfy static determinacy.
 
