@@ -79,7 +79,31 @@ For a simple CAD model, I had to find the dimensions of the members.
 
 For the members, I had to extend the ends to fit the pins in the center while maintaining the minimum required area that I had calculated earlier. I then modeled the truss in SolidWorks as one part, excluding the pins. The pins were modeled separately as cylinders using the calculated cross-sectional areas and lengths, then added to the final assembly.
 
+![Member1](member1.png)
+
+![Member2](member2.png)
+
+![Member3](member3.png)
+
+![Member4](member4.png)
+
 ![Truss Part](trusspart.png)
+
+The required cross-sectional area of each truss member was maintained through the pin-joint intersections so that the CAD model accurately represented the dimensions used in the structural analysis.
+
+![Pin](pin.png)
+
+![Pin Joint](pinjoint.png)
+
+The appropriate materials were assigned to the truss and pins. The SOLIDWORKS Mass Properties tool was then used on the complete assembly to determine the predicted mass and weight of the final design. I checked the weight of the truss without the pins, only the pins, and the combined weight of the members and the pins.
+
+![Mass Analysis No Pins](massanalysis1.png)
+
+![Mass Analysis Pins](massanalysis2.png)
+
+![Mass Analysis Total](massanalysis3.png)
+
+The final measured weight of the truss was 14.3 kg, which was not far off my calculated weight of 13.97 kg.
 
 ## Decide
 I selected the AB-BC-CD-AD-BD geometry because it creates a stable truss while using only five structural members. A planar pin-jointed truss with four joints and three support reactions satisfies the basic determinacy relationship **m+r=2j**. For this design, **(5)+(3)=2(4) -> 8=8**, so the structure is statically determinate. This geometry was preferred over a design containing additional members because additional members would increase material volume and weight without being necessary to satisfy static determinacy.
