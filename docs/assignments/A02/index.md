@@ -135,10 +135,13 @@ https://www.hawkins.biz/insight/steel-structure-failure-mechanisms/
 
 https://www.fixfast.com/skills-hub/what-are-the-various-failure-modes-of-fastener-connections
 
+[Member AB](memberAB.SLDPRT)
+[Member BC and AD](memberBC_AD.SLDPRT)
+[Member BD](memberBD.SLDPRT)
+[Member CD](memberCD.SLDPRT)
+[Truss Assembly](trussasm.SLDASSM)
+
 ## Decide
 I selected the AB-BC-CD-AD-BD geometry because it creates a stable truss while using only five structural members. A planar pin-jointed truss with four joints and three support reactions satisfies the basic determinacy relationship **m+r=2j**. For this design, **(5)+(3)=2(4) -> 8=8**, so the structure is statically determinate. This geometry was preferred over a design containing additional members because additional members would increase material volume and weight without being necessary to satisfy static determinacy.
 
 I selected P = 25 kN because it is the midpoint of the permitted loading range rather than selecting the minimum possible load simply to reduce the required cross-sectional area. The calculations showed that BD experiences the greatest member force at 47.467 kN, so that member controlled the cross-sectional-area design. A **40x40x4 mm square HSS** and **5/8 in** pins were then selected because both exceed their calculated minimum dimensions while remaining simple to manufacture and model in CAD.
-
-## Communicate
-
