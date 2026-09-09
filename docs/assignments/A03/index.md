@@ -6,6 +6,7 @@ For this assignment I was tasked with designing a beam with a circular cross-sec
 
 ## Parametric Design
 **Beginning Design**
+
 I began the design process by selecting the geometry of the beam. I chose the beam to have a diameter of 0.70 inches. I also chose 420 lbf as my force to be applied to the end of the beam, and a Young's Modulus of 10x10^6.
 
 ![Beam Drawing](beamdrawing.jpeg)
@@ -15,6 +16,7 @@ After choosing the geometry and parameters of the beam, I calculated the cross-s
 ![Beam Calculations](beamcalculations.jpeg)
 
 **CAD Design**
+
 To make my model and conduct a FEA I decided to use Solidworks. I began making my model by assigning all of my parameters to parametric equations.
 
 ![Parameters](parameters.png)
@@ -27,6 +29,7 @@ Then I made a circle sketch on the front place using the diameter parameter and 
 
 ## FEA
 **FEA Setup**
+
 To conduct a FEA I added the 420 lbf to one face of the beam and on the opposite face I added a fixed geometry to represent a fixed support.
 
 ![FEA Setup](feasetup.png)
@@ -37,16 +40,35 @@ I also needed to add a material to perform a FEA; however, when I looked through
 ![Custom Material](custommaterial.png)
 
 **FEA Results**
+
 Then I conducted a FEA and generated the deflection map.
 
 ![FEA Displacement](feadisplacement.png)
 
-I also generated the Von Mises Stress map.
+I also generated the von Mises stress map.
 
 ![FEA Stress](feastress.png)
 
-## Decide
+The von Mises stress map shows that the maximum stress is 8.028x10^6 N/m^2 which I converted to ksi units and it converts to 1.164 ksi. Using this I compared it to the 40 ksi stress of aluminum and found that the safety factor was 34.36.
+
+![Stress Calculations](stresscalculations.jpeg)
+
+## Design Reflection
+
+The deflection from my FEA was 0.2288 mm which I converted to 0.00901 inches. The percent difference between the two results is approximately 0.11%. The results are essentially the same because the bar has a uniform circular cross-section and is primarily subjected to simple axial loading. The hand calculation assumes uniform stress and deformation along the bar, which closely matches the conditions in the FEA model. Therefore, there are no major stress concentrations or complex loading effects causing a significant difference. I would trust the FEA result slightly more because it accounts for the actual model geometry and boundary ‹ V itions, while the hand calculation uses simplifying assumptions. However, the close agreement between the two results confirms that the hand calculation is a good representation of the bar's behavior.
+
+**Pin Hole Analysis**
 
 
-## Communicate
 
+## Modify Design Parameters
+
+
+
+## Lessons Learned
+
+
+
+## CAD File
+
+! [Beam Model](beammodel)
