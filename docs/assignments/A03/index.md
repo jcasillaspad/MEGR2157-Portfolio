@@ -11,7 +11,7 @@ I began the design process by selecting the geometry of the beam. I chose the be
 
 ![Beam Drawing](beamdrawing.jpeg)
 
-After choosing the geometry and parameters of the beam, I calculated the cross-sectional area to be 0.3848 inches^2 by using the area formula for a circle (pi x d^2)/4. Then, using the direct tension elongation equation and moving it around to solve for length, I found the length of the beam, with a 0.70 inch diameter, to be 82.46 inches.
+After choosing the geometry and parameters of the beam, I calculated the cross-sectional area to be 0.3848 inches^2 by using the area formula for a circle (pi x d^2)/4. Then, using the direct tension elongation equation and moving it to solve for length, I found the length of the beam, with a 0.70 inch diameter, to be 82.46 inches.
 
 ![Beam Calculations](beamcalculations.jpeg)
 
@@ -34,7 +34,7 @@ To conduct an FEA, I added 420 lbf to one face of the beam, and on the opposite 
 
 ![FEA Setup](feasetup.png)
 
-I also needed to add a material to perform an FEA; however, when I looked through the SolidWorks materials, I did not see an aluminum with a modulus of 10x10^6 that I had chosen for my calculations. To combat this issue I created a custom aluminum material with a Young's Modulus of 10x10^6 psi, and a Poisson's Ratio of 0.33 which I found was common for aluminum materials, and using those two values I calculated the Shear Modulus to be 3.76x10^6 psi. All of these values were needed to make the custom material.
+I also needed to add a material to perform an FEA; however, when I looked through the SolidWorks materials, I did not see an aluminum with a modulus of 10x10^6 that I had chosen for my calculations. To combat this issue, I created a custom aluminum material with a Young's Modulus of 10x10^6 psi and a Poisson's Ratio of 0.33, which I found was common for aluminum materials, and using those two values, I calculated the Shear Modulus to be 3.76x10^6 psi. All of these values were needed to make the custom material.
 
 ![Material Properties](materialproperties.jpeg)
 ![Custom Material](custommaterial.png)
@@ -49,7 +49,7 @@ I also generated the von Mises stress map.
 
 ![FEA Stress](feastress.png)
 
-The von Mises stress map shows that the maximum stress is 8.028x10^6 N/m^2, which I converted to ksi units and it converts to 1.164 ksi. Using this, I compared it to the 40 ksi stress of aluminum and found that the safety factor was 34.36.
+The von Mises stress map shows that the maximum stress is 8.028x10^6 N/m^2, which I converted to ksi units, and it converts to 1.164 ksi. Using this, I compared it to the 40 ksi stress of aluminum and found that the safety factor was 34.36.
 
 ![Stress Calculations](stresscalculations.jpeg)
 
