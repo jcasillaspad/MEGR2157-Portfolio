@@ -87,6 +87,6 @@ One mistake I made was not saving the CAD file before closing it out. I spent a 
 
 ## CAD Files
 
-![Circular Beam]([CircularBeam.SLDPRT](https://github.com/jcasillaspad/MEGR2157-Portfolio/blob/25949398d9d4db412196998b2ef0f175bd1b5528/docs/assignments/A03/CircularBeam.SLDPRT))
+![Circular Beam](https://github.com/jcasillaspad/MEGR2157-Portfolio/blob/25949398d9d4db412196998b2ef0f175bd1b5528/docs/assignments/A03/CircularBeam.SLDPRT)
 ![Beam FEA](CircularBeam-Static_1.CRW)
 
