@@ -87,7 +87,7 @@ One mistake I made was not saving the CAD file before closing it out. I spent a 
 
 ## CAD File
 
-![Circular Beam](https://github.com/jcasillaspad/MEGR2157-Portfolio/raw/refs/heads/main/docs/assignments/A03/CircularBeam.SLDPRT)
+![Circular Beam](CircularBeam.SLDPRT)
 
 
 
