@@ -67,11 +67,11 @@ A substantial pinhole would create a stress concentration at the edge of the hol
 
 For this section, the original bar design was modified by changing the design parameters while keeping the material and fixture conditions the same. To compare with the earlier results I had calculated, I had a Young's Modulus of 10x10^6 psi, a 420 lbf load, and the original bar diameter was 0.70 inches. The original calculated length was 82.46 inches.
 
-For the first design change, I changed the load from 420 lbf to 350 lbf. My prediction for this change is that the required length decreases because increasing/decreasing the load changes the amount of force causing axial deformation.
+For the first design change, I changed the load from 420 lbf to 350 lbf. My prediction for this change is that the required length increases because increasing/decreasing the load changes the amount of force causing axial deformation.
 
 ![Force Change](forcechange.png)
 
-The new calculated length decreased compared to the original design, which agrees with my prediction.
+The new calculated length increased compared to the original design, which agrees with my prediction.
 
 For the second design change, I changed the diameter from 0.70 inches to 1.20 inches. I expected the required length to increase because changing the diameter changes the cross-sectional area of the bar.
 
