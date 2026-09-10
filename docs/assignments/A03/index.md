@@ -85,8 +85,9 @@ I learned how changing the design parameters affects the length and overall perf
 
 One mistake I made was not saving the CAD file before closing it out. I spent a total of about 4.5 hours on this assignment.
 
-## CAD Files
+## CAD File
 
 ![Circular Beam](https://github.com/jcasillaspad/MEGR2157-Portfolio/raw/refs/heads/main/docs/assignments/A03/CircularBeam.SLDPRT)
-![Beam FEA](https://github.com/jcasillaspad/MEGR2157-Portfolio/raw/refs/heads/main/docs/assignments/A03/CircularBeam-Static_1.CRW)
+
+
 
