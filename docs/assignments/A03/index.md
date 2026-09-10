@@ -59,11 +59,25 @@ The deflection from my FEA was 0.2288 mm, which I converted to 0.00901 inches. T
 
 **Pin Hole Analysis**
 
+A substantial pinhole would create a stress concentration at the edge of the hole. Using a Peterson stress-concentration factor of approximately Kt = 2.16 for a hole with d/W = 0.50, and the nominal FEA stress of approximately 1.09 ksi, the estimated peak stress is 2.36 ksi. Using a yield stress of 40 ksi, the estimated safety factor is 16.9. Therefore, the design would still pass the safety factor requirement. The hole would increase the local stress significantly compared with the nominal stress, but the resulting stress is still well below the material's yield strength.
 
+![Pinhole Analysis](pinhole.jpeg)
 
 ## Modify Design Parameters
 
+For this section, the original bar design was modified by changing the design parameters while keeping the material and fixture conditions the same. To compare with the earlier results I had calculated, I had a Young's Modulus of 10x10^6 psi, a 420 lbf load, and the original bar diameter was 0.70 inches. The original calculated length was 82.46 inches.
 
+For the first design change, I changed the load from 420 lbf to 350 lbf. My prediction for this change is that the required length decreases because increasing/decreasing the load changes the amount of force causing axial deformation.
+
+![Force Change](forcechange.png)
+
+The new calculated length decreased compared to the original design, which agrees with my prediction.
+
+For the second design change, I changed the diameter from 0.70 inches to 1.20 inches. I expected the required length to increase because changing the diameter changes the cross-sectional area of the bar.
+
+![Diameter Change](diameterchange.png)
+
+The new calculated length increased compared to the original design, which agrees with my prediction.
 
 ## Lessons Learned
 
