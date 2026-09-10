@@ -87,7 +87,7 @@ One mistake I made was not saving the CAD file before closing it out. I spent a 
 
 ## CAD File
 
-![Circular Beam](CircularBeam.SLDPRT)
+![Circular Beam](circularbeam.SLDPRT)
 
 
 
