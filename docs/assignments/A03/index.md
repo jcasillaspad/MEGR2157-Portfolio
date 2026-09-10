@@ -88,5 +88,5 @@ One mistake I made was not saving the CAD file before closing it out. I spent a 
 ## CAD Files
 
 ![Circular Beam](https://github.com/jcasillaspad/MEGR2157-Portfolio/raw/refs/heads/main/docs/assignments/A03/CircularBeam.SLDPRT)
-![Beam FEA](CircularBeam-Static_1.CRW)
+![Beam FEA](https://github.com/jcasillaspad/MEGR2157-Portfolio/raw/refs/heads/main/docs/assignments/A03/CircularBeam-Static_1.CRW)
 
