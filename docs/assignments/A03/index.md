@@ -81,8 +81,12 @@ The new calculated length increased compared to the original design, which agree
 
 ## Lessons Learned
 
+I learned how changing the design parameters affects the length and overall performance of a bar under axial tension. I also learned how to use parametric equations in CAD to connect the material properties, dimensions, and deflection limit. The FEA helped me compare my hand calculations with an actual simulation and understand stress and deflection maps better.
 
+One mistake I made was not saving the CAD file before closing it out. I spent a total of about 4.5 hours on this assignment.
 
-## CAD File
+## CAD Files
 
-! [Beam Model](beammodel)
+![Circular Beam](CircularBeam.SLDPRT)
+![Beam FEA](CircularBeam-Static_1.CRW)
+
