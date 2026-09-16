@@ -12,7 +12,7 @@ The mount was divided into two main sections: Feature 1, which supports and atta
 
 I began the design process by establishing the known values and my assumed values.
 
-! [All Knowns](knowns.jpeg)
+![All Knowns](knowns.jpeg)
 
 ## Feature 1
 
@@ -20,13 +20,13 @@ I began the design process by establishing the known values and my assumed value
 
 I designed the exposed mounting face of feature 1 to be 50mm x 50mm x 14mm. A 50 mm mounting face provides enough room for the approximately 28 mm diameter motor body, shaft clearance, and four motor mounting screws.
 
-! [Feature 1 Knowns](1list.jpeg)
+![Feature 1 Knowns](1list.jpeg)
 
-! [Feature 1 FBD](1fbd.jpeg)
+![Feature 1 FBD](1fbd.jpeg)
 
 I calculated the required thickness of the beam using both stress and deflection analysis. This is where I calculated the 14mm thickness that I tested and it complied with the minimum allowable stress of 20MPa and maximum deflection of 0.30mm.
 
-! [Feature 1 Calculations](1math.jpeg)
+![Feature 1 Calculations](1math.jpeg)
 
 The motor mounting face also includes: four 3.4mm M3 clearance holes, a central shaft clearance hole, and a shallow center recess for the from motor locating feature.
 
@@ -37,13 +37,13 @@ The motor mounting face also includes: four 3.4mm M3 clearance holes, a central 
 
 I designed the exposed mounting face of feature 2 to be 50mm x 50mm x 14mm. Using the same thickness for both features simplifies the design and makes the final bracket easier to model and manufacture.
 
-! [Feature 2 Knowns](2list.jpeg)
+![Feature 2 Knowns](2list.jpeg)
 
-! [Feature 2 FBD](2fbd.jpeg)
+![Feature 2 FBD](2fbd.jpeg)
 
 The same beam bending stress and deflection analysis approach used for Feature 1 was applied to Feature 2. The required thickness was determined from the allowable stress after accounting for the required safety factor.
 
-! [Feature 2 Calculations](2math.jpeg)
+![Feature 2 Calculations](2math.jpeg)
 
 The wall mounting face includes 3.4mm clearance holes for the M3 bolts.
 
@@ -51,7 +51,7 @@ The wall mounting face includes 3.4mm clearance holes for the M3 bolts.
 
 Before creating the CAD model, I made an isometric sketch of the proposed motor mount.
 
-! [Isometric Sketch](sketch.jpeg)
+![Isometric Sketch](sketch.jpeg)
 
 ## CAD Modeling
 
