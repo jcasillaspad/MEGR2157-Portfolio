@@ -81,7 +81,7 @@ The vertical face of Feature 2 was given clearance holes for attaching the brack
 
 A small fillet was added to the inside corner between Feature 1 and Feature 2 to remove the sharp corner without interfering with the motor mounting surfaces.
 
-![Fillet](fillet)
+![Fillet](fillet.png)
 
 This completed the CAD model of the motor mount.
 
