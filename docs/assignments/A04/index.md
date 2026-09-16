@@ -89,5 +89,9 @@ This completed the CAD model of the motor mount.
 
 ## CAD Drawing
 
-## Conclusion
+
+
+[Click to download **SolidWorks Part**](mount.SLDPRT)
+[Click to download **SolidWorks Drawing**](mount.SLDDRW)
+[Click to download **Drawing PDF**](mount.pdf)
 
