@@ -57,35 +57,35 @@ Before creating the CAD model, I made an isometric sketch of the proposed motor 
 
 The motor mount was modeled in SolidWorks using parametric equations and global variables. This allows important dimensions to be changed from one location instead of manually editing several sketches.
 
-! [Global Variables](variables.png)
+![Global Variables](variables.png)
 
 The main L-shaped side profile was sketched first. The exposed horizontal and vertical faces were both dimensioned using the global variables. The profile was then extruded to the 50 mm width.
 
-! [CAD Sketch](cadsketch.png)
+![CAD Sketch](cadsketch.png)
 
-! [CAD Extrude1](extrude1.png)
+![CAD Extrude1](extrude1.png)
 
 On the top face of Feature 1, I added the features needed to attach the motor. These included: a center shaft clearance, motor locating recess, four M3 clearance holes.
 
-! [Extrude Cut 1](cut1.png)
+![Extrude Cut 1](cut1.png)
 
-! [Extrude Cut 2](cut2.png)
+![Extrude Cut 2](cut2.png)
 
 For the M3 clearance holes, I used a circular pattern to get the holes evenly spaced.
 
-! [Extrude Cut 3](cut3.png)
+![Extrude Cut 3](cut3.png)
 
 The vertical face of Feature 2 was given clearance holes for attaching the bracket to rigid wall A. These holes were also created using a circular sketch to get even spacing.
 
-! [Extrude Cut 4](cut4.png)
+![Extrude Cut 4](cut4.png)
 
 A small fillet was added to the inside corner between Feature 1 and Feature 2 to remove the sharp corner without interfering with the motor mounting surfaces.
 
-! [Fillet](fillet)
+![Fillet](fillet)
 
 This completed the CAD model of the motor mount.
 
-! [CAD Model View](modelview.png)
+![CAD Model View](modelview.png)
 
 ## CAD Drawing
 
