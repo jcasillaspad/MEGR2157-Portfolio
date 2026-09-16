@@ -4,7 +4,7 @@
 
 The objective of this assignment was to design a motor mount for the provided 24 V brushed DC gear motor and attach it securely to rigid wall A. The motor is subjected to a 300 N force at the shaft.
 
-! [Motor Appendix A](appendixa.png)
+![Motor Appendix A](appendixa.png)
 
 The mount was required to be designed using beam-bending equations for both yield strength and deflection. A factor of safety of 3 was required, and the maximum allowable deflection at the free end was 0.30 mm. The material had to be selected from PLA, PETG, or ABS.
 
@@ -16,7 +16,7 @@ I began the design process by establishing the known values and my assumed value
 
 ## Feature 1
 
-! [Feature 1](feature1.png)
+![Feature 1](feature1.png)
 
 I designed the exposed mounting face of feature 1 to be 50mm x 50mm x 14mm. A 50 mm mounting face provides enough room for the approximately 28 mm diameter motor body, shaft clearance, and four motor mounting screws.
 
@@ -33,7 +33,7 @@ The motor mounting face also includes: four 3.4mm M3 clearance holes, a central 
 
 ## Feature 2
 
-! [Feature 2](feature2.png)
+![Feature 2](feature2.png)
 
 I designed the exposed mounting face of feature 2 to be 50mm x 50mm x 14mm. Using the same thickness for both features simplifies the design and makes the final bracket easier to model and manufacture.
 
