@@ -94,6 +94,30 @@ Here are my multi view sketches for both stress and stiffness analysis
 
 ![Stiffness Multiview Sketch](multiviewstiffness.jpeg)
 
+## Link Design
+
+**Link Dimensions**
+
+I used 6061-T6 aluminum and a 1,400 lbf load from the two 700 lbf strap forces. I assumed a 1.75 in link width and 2.50 in spacing between holes. The 1-inch hole leaves the smallest cross-section, so I used it to size the link. Stress required a 0.187 in thickness and stiffness required 0.093 in, so I chose 0.250 in. At that thickness, the link’s elongation is 0.00187 in, below the 0.005 in limit.
+
+![Thickness Calculations](thickness.jpeg)
+
+**Fit at Feature A**
+
+I chose an RC2 sliding fit for the Ø0.900 in pin. The link hole is 0.9000–0.9005 in diameter, and the pin is 0.8993–0.8997 in diameter. I would finish the hole by reaming or boring and turn the pin to size. I used Machinery’s Handbook, 31st ed., Table 8a, pp. 654–655, and the machining-process table on p. 649.
+
+![Table 8a 1](8aa.png)
+
+![Table 8a 2](8ab.png)
+
+**Fit at Shaft**
+
+I chose an FN1 light drive fit, which uses light pressure to assemble. The link hole is Ø1.0000–1.0005 in, and the shaft is Ø1.0008–1.0012 in. I would finish-bore the hole, turn or grind the shaft, and press them together. I used Machinery’s Handbook, 31st ed., Table 11, pp. 664–665, and the machining-process table on p. 649.
+
+![Table 11 1](11a.png)
+
+![Table 11 1](11b.png)
+
 
 ## Lessons Learned
 
