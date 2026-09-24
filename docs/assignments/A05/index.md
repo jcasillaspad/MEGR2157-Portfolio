@@ -84,23 +84,15 @@ I used the same load and assumed span as the stress analysis, then solved for th
 
 ![Feature E Stiffness Analysis](stiffnesse.jpeg)
 
-## Dimensions and Multiview Sketches
-
-**Dimension Comparison**
-
-![Dimension Comparison](dimensioncomp.jpeg)
-
-Stress governed all five preliminary sizes. I rounded each governing minimum upward for the selected dimensions. These are idealized section sizes; the thin web and the corners where features meet require additional checking if this bracket is built.
+## Multiview Sketches
 
 **Multiview Sketches**
 
-The front, top, right-side, and isometric views label the five minimum dimensions from the stress analyses. Redraw this as one paper multiview sketch and add the measured T-beam fit dimensions.
+Here are my multi view sketches for both stress and stiffness analysis
 
-![Stress Multiview Sketch](stressmultiview.jpeg)
+![Stress Multiview Sketch](multiviewstress.jpeg)
 
-The same views show the stiffness-only minima so the two analysis methods can be compared directly. Redraw this separately on paper.
-
-![Stiffness Multiview Sketch](stiffnessmultiview.jpeg)
+![Stiffness Multiview Sketch](multiviewstiffness.jpeg)
 
 
 ## Lessons Learned
