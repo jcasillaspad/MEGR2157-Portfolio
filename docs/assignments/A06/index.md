@@ -12,29 +12,6 @@ I carried forward the 700 lbf load on each strap side, giving a total load of 1,
 
 The revised T-beam specification gives a = 0.498 in, b = 0.9992 in, and c = 1.499 in. For the symmetric cross-section, the nominal overall beam width is a + 2b = 2.4964 in. I used a 0.5020 in top slot, a 2.5024 in lower cavity width, and a 1.5050 in cavity height as preliminary opening dimensions. These model dimensions provide nominal clearance, but the three sliding-fit tolerances still need to be finalized on the drawing.
 
-**Dimension Selection**
-
-Feature A is the pin, B is the hanger, C is the lower crossmember, D represents the side webs, and E represents the upper lips. The selected modeling dimensions are listed below. Values are in inches.
-
-| Global variable | Model value | Feature controlled |
-| --- | --- | --- |
-| Bracket_depth | 0.750 | Main body extrusion depth |
-| Pin_diameter | 0.8995 | Feature A diameter |
-| Pin_free_length | 1.000 | Pin projection beyond the hanger |
-| Hanger_width | 0.750 | Feature B section width |
-| Hanger_thickness | 0.200 | Hanger extrusion thickness |
-| Hanger_length | 1.000 | Body underside to pin center |
-| Web_thickness | 0.100 | Feature D thickness |
-| Lip_height | 0.770 | Feature E height |
-| Top_slot_width | 0.5020 | Narrow top opening |
-| T_cavity_width | 2.5024 | Lower opening width |
-| T_cavity_height | 1.5050 | Lower opening height |
-| Crossmember_height | Approximately 0.8736 | Feature C height, driven by the strength equation |
-
-The 0.8995 in pin diameter is the midpoint of the 0.8993–0.8997 in limits selected in Assignment 5. The CAD model uses this size, while the drawing still needs the explicit fit limits.
-
-The revised opening also changes the lip overhang to approximately (2.5024 - 0.5020) / 2 = 1.0002 in. Applying the previous cantilever strength model to this longer overhang gives a minimum lip height of approximately 0.7484 in. I used 0.770 in for the model.
-
 ## Parametric Equations
 
 **Global Variables**
@@ -43,23 +20,13 @@ I entered the dimensions as global variables so the sketches and extrusions coul
 
 ![SolidWorks bracket global variables and crossmember equation](globalvariables.png)
 
-*Figure 1. Global variables controlling the bracket. The Evaluates to column is rounded by the display precision; for example, the pin input is 0.8995 in even though it displays as 0.90 in.*
-
 **Equation Driving Feature C**
-
-For the lower crossmember, I used the center-loaded, simply supported rectangular beam strength model from Assignment 5:
-
-```text
-h_C = sqrt(3 × P × L / (2 × w × allowable stress))
-```
 
 The total load P is 1,400 lbf, the assumed support span L is 2.6024 in, the section depth w is 0.750 in, and the allowable stress is 40,000 / 4 = 10,000 psi. The support span is the cavity width plus one web thickness, representing the distance between web centerlines.
 
 I entered the equation directly in SolidWorks and added a 0.020 in design allowance:
 
-```text
-"Crossmember_height" = (3 * 1400 * 2.6024 / (2 * 0.75 * 10000)) ^ (1 / 2) * 1in + 0.020in
-```
+**"Crossmember_height" = (3 * 1400 * 2.6024 / (2 * 0.75 * 10000)) ^ (1 / 2) * 1in + 0.020in**
 
 The equation evaluates to approximately 0.8736 in and controls the material below the T opening. The main body height also references this parameter, so the body height depends on the calculated crossmember height.
 
@@ -77,8 +44,6 @@ The width was defined as T_cavity_width + 2 × Web_thickness. The height was def
 
 ![Parametric main body rectangle](bodysketch.png)
 
-*Figure 2. Main body sketch. The displayed 2.70 in width and 3.15 in height are rounded representations of the parameter-controlled dimensions.*
-
 I extruded this sketch to the 0.750 in Bracket_depth.
 
 **Lower T Cavity**
@@ -86,8 +51,6 @@ I extruded this sketch to the 0.750 in Bracket_depth.
 On the body face, I sketched the wide rectangular opening and centered it about a vertical construction line. I controlled its width with T_cavity_width and its height with T_cavity_height. The distance from the body bottom to the cavity bottom was tied to Crossmember_height.
 
 ![Lower cavity sketch and crossmember height](cavitysketch.png)
-
-*Figure 3. Lower cavity sketch showing the opening dimensions and the equation-controlled material below it.*
 
 I used a Through All cut to create the lower opening. This left the lower crossmember and the two side webs.
 
@@ -97,8 +60,6 @@ I added a centered rectangle connecting the upper edge of the lower cavity to th
 
 ![Centered top slot sketch](topslotsketch.png)
 
-*Figure 4. Narrow top slot sketch. Cutting this region through the body completes the T-shaped opening and leaves the two upper lips.*
-
 I cut this sketch Through All so the T-shaped opening continued through the full body depth.
 
 **Rear Hanger**
@@ -106,8 +67,6 @@ I cut this sketch Through All so the T-shaped opening continued through the full
 I sketched the hanger on the rear face of the body, centered it horizontally, and placed its top edge at the body underside. The width was controlled by Hanger_width. The full rectangular hanger height was Hanger_length + Pin_diameter / 2, or approximately 1.44975 in.
 
 ![Rear hanger sketch](hangersketch.png)
-
-*Figure 5. Hanger sketch showing the 0.750 in width and approximately 1.45 in total rectangular height.*
 
 I extruded the hanger 0.200 in toward the front of the bracket with Merge result enabled. This placed the hanger at the rear of the body.
 
@@ -117,8 +76,6 @@ On the rear hanger face, I sketched the pin circle and aligned its center vertic
 
 ![Corrected pin sketch and center location](pinsketch.png)
 
-*Figure 6. Corrected pin sketch. The 1.000 in location is measured from the main body underside to the circle center, and the displayed diameter is rounded to 0.90 in.*
-
 I extruded the pin toward the front by Pin_free_length + Hanger_thickness = 1.200 in, with Merge result enabled. This creates 1.000 in of exposed pin beyond the hanger's front surface.
 
 **Bracket Model**
@@ -126,8 +83,6 @@ I extruded the pin toward the front by Pin_free_length + Hanger_thickness = 1.20
 The current solid model includes the T opening, lower crossmember, side webs, upper lips, rear hanger, and cylindrical pin.
 
 ![Isometric bracket solid model](bracketmodel.png)
-
-*Figure 7. Current bracket model after the pin extrusion. The rectangular hanger extends slightly below the pin because of the selected hanger outline.*
 
 ## Engineering Drawing
 
@@ -137,23 +92,7 @@ I created a drawing with a front view, a top view above it, a right-side view to
 
 ![Current bracket engineering drawing](bracketdrawing.png)
 
-*Figure 8. Current drawing showing the bracket views, dimension placement, and title block.*
-
 The drawing currently shows dimensions for the body, side web, lip overhang, pin, hanger, and overall height. Its dimensions are displayed at limited precision, so the image should not be interpreted as the final specification of the fit surfaces.
-
-**Tolerancing Still to Complete**
-
-The drawing needs explicit limits or tolerances for the three T-beam sliding interfaces and the pin's 0.8993–0.8997 in diameter limits. The narrow top slot and the lower cavity height also need clear manufacturing dimensions. I still need to complete the material and title-block information and include the required general tolerance block:
-
-```text
-UNLESS OTHERWISE SPECIFIED:
-DIMENSIONS ARE IN INCHES
-X.X     ± .02
-X.XX    ± .01
-X.XXX   ± .005
-```
-
-Functional mating surfaces need tolerances based on the required fit rather than only the general block. Non-critical exterior dimensions can use a looser class when their variation does not affect assembly or strength. The final tighter-versus-looser tolerance examples will be documented after those callouts are applied.
 
 ## Mistakes and Corrections
 
