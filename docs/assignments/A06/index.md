@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this assignment is to turn the bracket design from [Assignment 5](../A05/index.md) into a parametric solid model and a multiview engineering drawing in SolidWorks. The bracket fits over a rigid T-shaped beam and supports the polyester strap through a cylindrical pin. This page documents the bracket modeling process and the current drawing. The separate link will be documented later.
+The objective of this assignment is to turn the bracket design from [Assignment 5](../A05/index.md) into a parametric solid model and a multiview engineering drawing in SolidWorks. The bracket fits over a rigid T-shaped beam and supports the polyester strap through a cylindrical pin. This page documents how I made the bracket and the separate link, along with the drawings for both parts.
 
 ## Design Process
 
@@ -10,7 +10,7 @@ The objective of this assignment is to turn the bracket design from [Assignment 
 
 I carried forward the 700 lbf load on each strap side, giving a total load of 1,400 lbf, and the selected 6061-T6 aluminum from Assignment 5. The preliminary analysis used a safety factor of 4, a yield strength of 40,000 psi, an elastic modulus of 10,000,000 psi, and a 0.005 in deflection limit for each feature.
 
-The revised T-beam specification gives a = 0.498 in, b = 0.9992 in, and c = 1.499 in. For the symmetric cross-section, the nominal overall beam width is a + 2b = 2.4964 in. I used a 0.5020 in top slot, a 2.5024 in lower cavity width, and a 1.5050 in cavity height as preliminary opening dimensions. These model dimensions provide nominal clearance, but the three sliding-fit tolerances still need to be finalized on the drawing.
+The revised T-beam specification gives a = 0.498 in, b = 0.9992 in, and c = 1.499 in. For the symmetric cross-section, the nominal overall beam width is a + 2b = 2.4964 in. I used a 0.5020 in top slot, a 2.5024 in lower opening width, and a 1.5050 in opening height for the bracket.
 
 ## Parametric Equations
 
@@ -32,7 +32,7 @@ The equation evaluates to approximately 0.8736 in and controls the material belo
 
 The original 2.50 in span in Assignment 5 gave a strength minimum of approximately 0.837 in. With the revised 2.6024 in span, the minimum increases to approximately 0.8536 in before the design allowance.
 
-The expression currently contains the load and span as numerical constants. If the cavity width or web thickness changes, the 2.6024 in span must be updated manually in this expression. The sketches that reference Crossmember_height are set up to follow its result; a separate before-and-after rebuild test has not yet been documented.
+The load and span are entered directly in the equation. If I change the opening width or side-web thickness, I need to update the span in the equation. The sketches that use Crossmember_height follow the result.
 
 ## CAD Modeling
 
@@ -80,7 +80,7 @@ I extruded the pin toward the front by Pin_free_length + Hanger_thickness = 1.20
 
 **Bracket Model**
 
-The current solid model includes the T opening, lower crossmember, side webs, upper lips, rear hanger, and cylindrical pin.
+The finished bracket model includes the T opening, lower crossmember, side webs, upper lips, rear hanger, and cylindrical pin.
 
 ![Isometric bracket solid model](bracketmodel.png)
 
@@ -88,17 +88,55 @@ The current solid model includes the T opening, lower crossmember, side webs, up
 
 **Multiview Layout**
 
-I created a drawing with a front view, a top view above it, a right-side view to its right, and an isometric view for orientation. This arrangement follows a third-angle projection layout. The current sheet uses a 1:2 scale and identifies the part as Bracket.
+I created a drawing with a front view, a top view above it, a right-side view to its right, and an isometric view for orientation. This arrangement follows a third-angle projection layout. The drawing sheet uses a 1:2 scale and identifies the part as Bracket.
 
-![Current bracket engineering drawing](bracketdrawing.png)
+![Bracket engineering drawing](bracketdrawing.png)
 
-The drawing currently shows dimensions for the body, side web, lip overhang, pin, hanger, and overall height. Its dimensions are displayed at limited precision, so the image should not be interpreted as the final specification of the fit surfaces.
+The drawing shows the body, side webs, upper lips, pin, hanger, and overall height. The different views make it easier to understand the shape and size of the bracket.
+
+## Link Design
+
+**Design Choices**
+
+For the 2157 portion, I made the link as a separate SolidWorks part. I used the dimensions from Assignment 5: a 1.750 in width, a 0.250 in thickness, and 2.500 in between the hole centers. The earlier calculations showed that the selected thickness was larger than the minimum needed for strength and stiffness.
+
+I chose a shape with straight sides and rounded ends. One hole connects to the bracket pin, and the other connects to the shaft.
+
+**Link Sketch and Extrusion**
+
+I started a sketch on the Front Plane and used the Straight Slot tool to draw the outline. I placed one end center at the origin and kept the other center horizontally aligned with it. I set the distance between the centers to 2.500 in and the width to 1.750 in.
+
+![Link outline sketch](linksketch.png)
+
+The 2.500 in dimension is the distance between the centers, not the full length of the link. With the rounded ends, the overall length is 4.250 in.
+
+I extruded the outline to a thickness of 0.250 in.
+
+**Link Holes**
+
+On the front face, I drew a circle at each rounded-end center. I used the bracket-end hole size of 0.90025 in and the shaft-end hole size of 1.00025 in. These dimensions display as 0.90 in and 1.00 in in the screenshot.
+
+![Link hole dimensions](linkholes.png)
+
+I cut both circles through the full thickness of the link.
+
+**Finished Link Model**
+
+The finished link has two holes, rounded ends, and a flat body. I kept it in its own part file so the bracket and link can be downloaded separately.
+
+![Finished link model](linkmodel.png)
+
+**Link Drawing**
+
+I made a drawing with front, top, right-side, and isometric views. The top view is above the front view, and the right-side view is to its right. The drawing shows the width, overall length, thickness, hole sizes, rounded ends, and distance between the holes. The sheet uses a 1:1 scale.
+
+![Link engineering drawing](linkdrawing.png)
 
 ## Mistakes and Corrections
 
 **Equation Syntax**
 
-The first Crossmember_height expression produced a syntax error in SolidWorks. I simplified the expression and entered the global-variable name separately from its Value/Equation entry. The current parameter table shows the expression evaluating to approximately 0.87 in at the displayed precision.
+The first Crossmember_height expression produced a syntax error in SolidWorks. I simplified the expression and entered the global-variable name separately from its Value/Equation entry. The parameter table shows the expression evaluating to approximately 0.87 in at the displayed precision.
 
 **Pin Location Reference**
 
@@ -106,7 +144,7 @@ I initially dimensioned the circle center 1.000 in below the hanger's bottom edg
 
 **Lip Dimension Correction**
 
-The handwritten 0.50 in lip selection in Assignment 5 was below its calculated 0.648 in strength minimum. The revised T-beam geometry increased the assumed overhang further. I used a 0.770 in lip height for the current model rather than carrying the 0.50 in selection into CAD.
+The handwritten 0.50 in lip selection in Assignment 5 was below its calculated 0.648 in strength minimum. The revised T-beam geometry increased the assumed overhang further. I used a 0.770 in lip height for the bracket model rather than carrying the 0.50 in selection into CAD.
 
 ## Lessons Learned
 
@@ -122,14 +160,24 @@ The crossmember equation places the strength calculation directly in CAD. Refere
 
 Changing the T-beam specification affects the opening width, the crossmember support span, and the upper-lip overhang. These changes can alter the required structural dimensions, so replacing only the opening dimensions would leave parts of the earlier analysis out of date.
 
-**Model Precision and Drawing Precision**
+**Link Hole Placement**
 
-The parameter table and sketches round displayed values. A displayed diameter of 0.90 in does not communicate the pin's 0.8993–0.8997 in fit limits. The drawing must specify those limits explicitly. Applying an unnecessarily tight tolerance to a non-critical exterior feature can increase machining and inspection effort without improving the bracket's function.
+Placing each hole at the center of its rounded end made the link easier to sketch and dimension. I also learned to distinguish the 2.500 in distance between hole centers from the 4.250 in overall length.
+
+**Showing the Parts in a Drawing**
+
+The front view shows the hole locations and outline, while the side and top views show the thickness. The isometric view helps connect these flat views to the shape of the finished part.
 
 ## Time Spent
 
-I have spent approximately **3 hours** on the bracket modeling and drawing so far. This is the current total, not the final start-to-finish time for Assignment 6.
+I spent approximately 4 hours on the bracket and link models and their drawings. The bracket took about 3 hours, and the link added another hour.
 
 ## CAD Download Files
 
-The native bracket part, drawing, and drawing PDF have not yet been uploaded to this assignment page. Download links will be added when those files are available. The screenshot above documents the current drawing; it does not replace a downloadable CAD file or the required final PDF.
+[Click to download **Bracket SolidWorks Part**](Bracket.SLDPRT)
+
+[Click to download **Bracket SolidWorks Drawing**](Bracket.SLDDRW)
+
+[Click to download **Link SolidWorks Part**](Link.SLDPRT)
+
+[Click to download **Link SolidWorks Drawing**](Link.SLDDRW)
