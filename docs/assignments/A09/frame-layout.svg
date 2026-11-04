@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720">
+<rect width="1000" height="720" fill="white"/>
+<style>text{font-family:Arial,sans-serif;font-size:18px;fill:#222}.title{font-size:24px;font-weight:bold}.line{fill:none;stroke:#222;stroke-width:2}.dim{fill:none;stroke:#666;stroke-width:1}.hidden{fill:none;stroke:#888;stroke-width:2;stroke-dasharray:6 5}</style>
+<text x="35" y="35" class="title">Pulley frame concept — dimensions in inches</text>
+<text x="35" y="65">6061-T6 aluminum base and supports; schematic, not to scale</text>
+<text x="35" y="85">FRONT VIEW (looking along the shafts)</text>
+<rect x="80" y="290" width="650" height="18" class="line"/>
+<rect x="175" y="155" width="130" height="135" class="hidden"/><rect x="500" y="155" width="130" height="135" class="hidden"/>
+<circle cx="240" cy="185" r="90" class="line"/><circle cx="565" cy="185" r="90" class="line"/>
+<circle cx="240" cy="185" r="12" class="line"/><circle cx="565" cy="185" r="12" class="line"/>
+<path d="M240 95H565 M240 275H565" class="line"/>
+<path d="M240 315V345 M565 315V345 M240 335H565 M240 330V340 M565 330V340" class="dim"/>
+<text x="367" y="360">5.00</text>
+<path d="M680 185H765 M740 290H765 M755 185V290" class="dim"/><text x="770" y="240">2.00 axis height</text>
+<text x="35" y="390">Two steel pulleys: 3.00 effective diameter; shafts: 0.375 diameter</text>
+<text x="35" y="430">TOP VIEW (pulleys shown edge-on)</text>
+<rect x="80" y="455" width="650" height="180" class="line"/>
+<path d="M240 465V625 M565 465V625" class="line"/>
+<rect x="175" y="494" width="130" height="12" class="line"/><rect x="175" y="584" width="130" height="12" class="line"/>
+<rect x="500" y="494" width="130" height="12" class="line"/><rect x="500" y="584" width="130" height="12" class="line"/>
+<rect x="227" y="489" width="26" height="22" class="line"/><rect x="227" y="579" width="26" height="22" class="line"/>
+<rect x="552" y="489" width="26" height="22" class="line"/><rect x="552" y="579" width="26" height="22" class="line"/>
+<rect x="150" y="540" width="180" height="10" class="line"/><rect x="475" y="540" width="180" height="10" class="line"/>
+<path d="M330 545H475" class="hidden"/>
+<path d="M745 500H770 M745 590H770 M760 500V590" class="dim"/><text x="775" y="540">2.00 bearing</text><text x="775" y="563">center spacing</text>
+<text x="80" y="665">Base: 10.00 × 4.00 × 0.25. Four supports: 2.00 wide × 2.50 high × 0.25 thick.</text>
+<text x="80" y="695">Bearings: 0.50 long. Supports attach to the base with bolted angle feet.</text>
+</svg>
