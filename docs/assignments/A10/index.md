@@ -68,6 +68,10 @@ The objective of this assignment is to design a mechanically operated tensile te
 
 ![Optimized crosshead stress](optimizedstress.png)
 
+**Crosshead Drawing**
+
+![Crosshead drawing](crossheaddrawing.png)
+
 ## Lessons Learned
 
 Throughout this project, our team gained a better understanding of the engineering design process and how different mechanical components work together in a tensile testing machine. We learned how to select leadscrews based on axial stress, rotational speed, torque, and safety factors. We also learned the importance of selecting compatible components, such as the bronze flange nuts, and verifying that they can withstand the required loads.
