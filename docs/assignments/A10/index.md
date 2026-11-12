@@ -154,6 +154,13 @@ This showed that the modified crosshead maintained nearly the same stiffness whi
 
 ![Crosshead drawing](crossheaddrawing.png)
 
+| Item # | Quantity | Name | Cost/Item | Total Cost | Purchase Link |
+|---|---|---|---|---|---|
+| 1 | 2 | Bronze Flanged Nut (97790A110) | $178.60 | $357.20 | [McMaster-Carr](https://www.mcmaster.com/97790A110) |
+| 2 | 2 | Carbon Steel ACME Lead Screw (98935A823) | $9.90 | $19.80 | [McMaster-Carr](https://www.mcmaster.com/98935A823) |
+| 3 | 4 (estimated) | Aluminum T-Slot Frame (906T77) | $47.92 | $191.68 | [Grainger](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
+| | | **Current Estimated Subtotal** | | **$568.68** | |
+
 ## Lessons Learned
 
 Throughout this project, our team gained a better understanding of the engineering design process and how different mechanical components work together in a tensile testing machine. We learned how to select leadscrews based on axial stress, rotational speed, torque, and safety factors. We also learned the importance of selecting compatible components, such as the bronze flange nuts, and verifying that they can withstand the required loads.
