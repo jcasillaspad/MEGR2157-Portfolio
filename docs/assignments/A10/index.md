@@ -154,6 +154,8 @@ This showed that the modified crosshead maintained nearly the same stiffness whi
 
 ![Crosshead drawing](crossheaddrawing.png)
 
+## Tabling Cost 
+
 | Item # | Quantity | Name | Cost/Item | Total Cost | Purchase Link |
 |---|---|---|---|---|---|
 | 1 | 2 | Bronze Flanged Nut (97790A110) | $178.60 | $357.20 | [McMaster-Carr](https://www.mcmaster.com/97790A110) |
