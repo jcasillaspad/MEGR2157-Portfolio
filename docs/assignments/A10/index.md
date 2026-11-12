@@ -6,33 +6,8 @@ The objective of this assignment is to design a mechanically operated tensile te
 
 ![Tensile Tester Design](Screenshot%202026-11-11%20at%2011.16.55%20PM.png)
 
-
-
-
 ## Analyze
-
-![optimizedstress.png](optimizedstress.png)
-
-![Screenshot 2026-11-11 223929.png](Screenshot%202026-11-11%20223929.png)
-
-![Screenshot 2026-11-11 221751.png](Screenshot%202026-11-11%20221751.png)
-
-![finemeshdisplacement.png](finemeshdisplacement.png)
-
-![Screenshot 2026-11-11 222153.png](Screenshot%202026-11-11%20222153.png)
-
-![Screenshot 2026-11-11 222216.png](Screenshot%202026-11-11%20222216.png)
-
-![Screenshot 2026-11-11 221551.png](Screenshot%202026-11-11%20221551.png)
-
-![Screenshot 2026-11-11 220430.png](Screenshot%202026-11-11%20220430.png)
-
-![Screenshot 2026-11-11 204209.png](Screenshot%202026-11-11%20204209.png)
-
 
 ## Decide
 
 ## Communicate
-
-[crosshead_optimized.SLDPRT](crosshead_optimized.SLDPRT)
-
