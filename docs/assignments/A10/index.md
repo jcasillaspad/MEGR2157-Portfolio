@@ -12,19 +12,21 @@ The objective of this assignment is to design a mechanically operated tensile te
 
 **Diameter**
 
-We started by dividing the total load between the two lead screws. Using the carbon steel material properties and the required safety factor, we calculated the minimum screw diameter. The notes below show our known values, free-body diagram, and calculations.
+Since our design uses two identical lead screws, we assumed that each screw would carry half of the total 2,000 N load. We used a safety factor of 4 to make sure the screws would have enough strength to handle the load without yielding. After finding the minimum required diameter, we compared it to the size of the lead screw we selected. We chose a larger diameter to provide additional strength while still keeping the design practical.
 
 ![Lead screw diameter](01-diameter.png)
 
 **Rotational Speed Range**
 
-Next, we used the screw lead to find the rotational speed needed for the required crosshead movement. The lead tells us how far the nut travels during each full turn of the screw. We used this relationship to calculate the minimum and maximum rotational speeds.
+We used the lead of our selected screw, which was 2.54 mm per revolution, to calculate how fast the screws would need to rotate. The minimum required speed was approximately 0.39 RPM, and the maximum was 19.68 RPM. This showed us that the screws would need to rotate relatively slowly to produce the required crosshead movement. Both screws would also need to rotate at the same speed so the crosshead stays level while moving.
 
 ![Rotational speed](02-speed.png)
 
 **Torque and Lead Screw Selection**
 
-We calculated the torque needed to turn each lead screw under load. This calculation uses the screw dimensions, load, and friction assumption shown in our notes. We selected a carbon steel Acme lead screw and used its dimensions in the rest of the design.
+To calculate the torque, we used the inclined-plane method from class. This method helped us understand how the lead screw threads convert rotation into vertical movement. We assumed a friction coefficient of 0.15 between the screw and nut. Using this assumption, we calculated approximately 1.27 N*m of torque per screw, or 2.54 N*m for both screws before accounting for other mechanical losses.
+
+We selected a 1/2"-10 carbon steel Acme lead screw from McMaster-Carr, part 98935A823. We chose this screw because its diameter was larger than the minimum we calculated, its length of 36 inches exceeded the 18-inch requirement, and its lead worked with our calculated rotational speed range.
 
 ![Torque calculations](03-torque-a.png)
 
@@ -32,7 +34,9 @@ We calculated the torque needed to turn each lead screw under load. This calcula
 
 ## Nut and Flange
 
-We used a thread bending stress calculation to find the minimum nut engagement length. The calculation uses the load carried by one screw, the thread dimensions, and the bronze material properties. We then used the flange nut model with the lead screws in our SolidWorks assembly.
+We selected a bronze flanged nut from McMaster-Carr, part 97790A110, to match our 1/2"-10 Acme lead screw. We chose a flanged nut because it could be attached to the crosshead using mounting holes. Each nut was assumed to carry 1,000 N of the total load.
+
+We used the thread bending stress equation from class to estimate the minimum thread engagement length. Our preliminary calculation gave us a required length of 4.77 mm. We then used the selected bronze nut in our SolidWorks assembly and positioned one nut at each lead screw opening.
 
 ![Nut and flange calculations](04-nut-a.png)
 
@@ -42,7 +46,9 @@ We used a thread bending stress calculation to find the minimum nut engagement l
 
 **Stress Analysis**
 
-We chose aluminum for the crosshead and modeled it as a beam supported at the two nut locations. The pulling load acts at the center of the crosshead. We used bending stress to calculate a starting thickness based on the dimensions and assumptions in our notes.
+We decided to use 6061-T6 aluminum for our crosshead because it has good strength while being relatively lightweight and easy to machine. We started with an overall length of 12 inches and a width of 4 inches. The width was chosen to provide enough space for the bronze flange nuts and their mounting holes.
+
+For the calculations, we treated the crosshead as a simply supported beam with the load acting at the center. We used a 6-inch distance between the two lead screw locations. The bending stress calculation gave us a minimum height of approximately 8.08 mm, while the deflection calculation gave us approximately 13.63 mm.
 
 ![Crosshead stress calculations](05-strength-a.png)
 
@@ -50,7 +56,7 @@ We chose aluminum for the crosshead and modeled it as a beam supported at the tw
 
 **Deflection Analysis**
 
-We also calculated the thickness needed to limit crosshead deflection. We compared the deflection result with the strength result before choosing the thickness for the model. Our selected thickness is shown at the end of the handwritten calculations.
+Since deflection required a greater thickness than bending strength, we selected a final crosshead thickness of 20 mm. This gave us additional room for the mounting features while helping keep the crosshead stiff under the applied load.
 
 ![Crosshead deflection calculations](06-deflection-a.png)
 
@@ -72,49 +78,77 @@ After that, we added the vertical and horizontal frame pieces. We positioned the
 
 ![Frame assembly](Screenshot%202026-11-11%20220430.png)
 
+
 ## 2157 (FEA)
 
 ## Original Crosshead
 
 **Load and Fixtures**
 
-We set up a static simulation using aluminum for the crosshead. We constrained the flange mounting holes because these are where the nuts support the crosshead. We applied the load at the center grip location to represent the pulling force on the crosshead.
+For the FEA, we used SolidWorks Simulation to test our crosshead under the required 2,000 N load. We selected 6061-T6 aluminum as the material because this was the material used in our original design calculations.
+
+We applied the force at the center grip location to represent the pulling force on the crosshead. We also fixed the eight smaller mounting holes where the two bronze flange nuts attach to the crosshead. These locations were used to represent how the crosshead is supported by the lead screws.
 
 ![Applied load](Screenshot%202026-11-11%20221551.png)
 
 **Mesh**
 
-We generated a solid mesh for the crosshead before running the simulation. The image below shows how the part was divided into elements, including the areas around the holes.
+We generated a solid mesh for the crosshead so SolidWorks could calculate how the part would react to the applied force. The mesh divided the crosshead into smaller elements, including the areas around the mounting holes and the center grip location.
+
+This allowed us to see where the highest stresses and displacements occurred.
 
 ![Crosshead mesh](Screenshot%202026-11-11%20221751.png)
 
 **Original Crosshead Results**
 
-The stress plot shows higher stress around the mounting holes and the center load area. The resultant displacement plot shows the largest movement near the center of the crosshead, between the supports.
+After running the simulation, we looked at the von Mises stress and displacement results to see how the crosshead performed under the 2,000 N load.
 
-These results gave us a starting point for comparing the original crosshead with the modified design.
+The stress plot showed that most of the crosshead experienced relatively low stress. The higher stress areas appeared around the mounting holes and the center loading location. This helped us understand how the applied force was transferred through the crosshead to the supported ends.
 
 ![Original crosshead stress](Screenshot%202026-11-11%20222216.png)
+
+We also looked at the resultant displacement to see how much the crosshead would bend under the load. The largest displacement occurred near the center of the crosshead, where the pulling force was applied.
+
+The maximum resultant displacement was approximately 0.008731 mm, which was below the required limit of 0.1 mm. This showed that our original crosshead was stiff enough under the conditions used in the simulation.
 
 ![Original crosshead displacement](Screenshot%202026-11-11%20222153.png)
 
 **Finer Mesh Results**
 
-We ran another simulation with a finer mesh to see how the result changed. The maximum resultant displacement stayed close to the earlier result. The image below shows the displacement from the finer mesh run.
+We ran another simulation using a finer mesh to see how the results changed when the elements became smaller.
+
+With the finer mesh, the maximum von Mises stress was approximately 23.79 MPa, and the maximum resultant displacement was 0.008724 mm. The displacement was very close to our earlier result, which showed that the predicted bending changed very little between these two runs.
+
+Using the aluminum yield strength of 276 MPa, the calculated factor of safety was approximately 11.60. This was greater than the required safety factor of 4.
 
 ![Fine mesh displacement](finemeshdisplacement.png)
 
 **Modified Crosshead**
 
-We added shallow (5mm) pockets near the ends of the crosshead to remove material. We kept the center grip area and the mounting holes in place.
+After reviewing the original simulation, we decided to make the crosshead lighter by removing material from areas that experienced relatively low stress.
 
-The original crosshead had a mass of 1,702.42 grams, and the optimized crosshead had a mass of 1,652.80 grams. This removed 49.62 grams, which is about 2.91 percent of the original mass.
+We added two rectangular pockets near the opposite ends of the crosshead. Each pocket was cut 5 mm deep. We kept the center grip location and the mounting holes unchanged so the crosshead could still connect to the same components in our assembly.
 
 ![Optimized crosshead](Screenshot%202026-11-11%20223929.png)
 
-We ran the simulation again after changing the geometry. The optimized stress plot showed a lower maximum stress than the original results. The image below shows the stress result for the modified crosshead.
+We then compared the mass of the original crosshead with the modified design. The original crosshead weighed 1,702.42 grams, while the modified version weighed 1,652.80 grams.
+
+This removed 49.62 grams of material, giving us a mass reduction of approximately 2.91%. Although the reduction was relatively small, it allowed us to make the crosshead lighter without changing its overall dimensions or mounting locations.
+
+**Modified Crosshead FEA Results**
+
+After modifying the geometry, we ran the static simulation again using the same material, applied load, and mounting constraints.
+
+The modified crosshead had a maximum von Mises stress of approximately 22.40 MPa, which was slightly lower than the 23.79 MPa from our original finer-mesh simulation.
+
+The calculated factor of safety increased from approximately 11.60 to 12.32. The higher stress areas were still concentrated around the mounting holes and center loading area.
 
 ![Optimized crosshead stress](optimizedstress.png)
+
+The modified crosshead also had a maximum resultant displacement of approximately 0.008712 mm, compared to 0.008724 mm for the original finer-mesh design.
+
+This showed that the modified crosshead maintained nearly the same stiffness while reducing its mass. Based on our simulation results, the modified crosshead remained below the maximum deflection limit of 0.1 mm and above the required safety factor of 4.
+
 
 **Crosshead Drawing**
 
