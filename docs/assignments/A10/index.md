@@ -63,3 +63,19 @@ Another important lesson was that engineering design requires adjustments and ca
 ## Decide
 
 ## Communicate
+
+[Click here to download lead_screw.SLDPRT](lead_screw.SLDPRT?raw=true)
+
+[Click here to download flange_nut.SLDPRT](flange_nut.SLDPRT?raw=true)
+
+[Click here to download frameheight.SLDPRT](frameheight.sldprt?raw=true)
+
+[Click here to download framewidth.SLDPRT](framewidth.sldprt?raw=true)
+
+[Click here to download Assembly.SLDASM](Assembly.SLDASM?raw=true)
+
+[Click here to download crosshead.SLDPRT](crosshead.SLDPRT?raw=true)
+
+[Click here to download crosshead.SLDDRW](crosshead.SLDDRW?raw=true)
+
+[Click here to download crosshead_optimized.SLDPRT](crosshead_optimized.SLDPRT?raw=true)
