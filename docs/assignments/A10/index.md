@@ -6,7 +6,9 @@ The objective of this assignment is to design a mechanically operated tensile te
 
 ![Tensile Tester Design](Screenshot%202026-11-11%20at%2011.16.55%20PM.png)
 
-## Analyze
+![Tensile tester sketch](08-system-sketch.png)
+
+## Lead Screw
 
 ![Lead screw diameter](01-diameter.png)
 
@@ -16,27 +18,39 @@ The objective of this assignment is to design a mechanically operated tensile te
 
 ![Torque and lead screw selection](03-torque-b.png)
 
+## Nut and Flange
+
 ![Nut and flange calculations](04-nut-a.png)
 
 ![Nut engagement length](04-nut-b.png)
+
+## Crosshead Design
+
+**Stress Analysis**
 
 ![Crosshead stress calculations](05-strength-a.png)
 
 ![Crosshead thickness from stress](05-strength-b.png)
 
+**Deflection Analysis**
+
 ![Crosshead deflection calculations](06-deflection-a.png)
 
 ![Selected crosshead thickness](06-deflection-b.png)
 
+**Multiview Sketches**
+
 ![Crosshead sketches](07-sketches.png)
 
-![Tensile tester sketch](08-system-sketch.png)
+## CAD Assembly
 
 ![Lead screw assembly](Screenshot%202026-11-11%20204209.png)
 
 ![Frame assembly](Screenshot%202026-11-11%20220430.png)
 
 ## 2157 (FEA)
+
+**Original Crosshead**
 
 ![Applied load](Screenshot%202026-11-11%20221551.png)
 
@@ -47,6 +61,8 @@ The objective of this assignment is to design a mechanically operated tensile te
 ![Original crosshead displacement](Screenshot%202026-11-11%20222153.png)
 
 ![Fine mesh displacement](finemeshdisplacement.png)
+
+**Modified Crosshead**
 
 ![Optimized crosshead](Screenshot%202026-11-11%20223929.png)
 
