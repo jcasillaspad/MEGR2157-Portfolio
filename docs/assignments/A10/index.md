@@ -169,7 +169,7 @@ Throughout this project, our team gained a better understanding of the engineeri
 
 One of the most important lessons was understanding how material selection and component dimensions affect the strength and stiffness of a design. When designing the crosshead, we applied bending stress and deflection equations to determine appropriate dimensions while ensuring that the component could support the 2 kN load. We also gained experience using SolidWorks to model components, create assemblies, and evaluate structural performance through finite element analysis (FEA).
 
-Another important lesson was that engineering design requires adjustments and careful verification. Selecting a component based only on its dimensions is not sufficient; its material properties, load capacity, compatibility, and factor of safety must also be considered. Overall, this project improved our understanding of mechanical design, engineering calculations, CAD modeling, and the importance of documenting and justifying design decisions.
+Another important lesson was that engineering design requires adjustments and careful verification. Selecting a component based only on its dimensions is not sufficient; its material properties, load capacity, compatibility, and factor of safety must also be considered. Overall, this project improved our understanding of mechanical design, engineering calculations, CAD modeling, and the importance of documenting and justifying design decisions. Around 6.5 hours was spent on the project.
 
 ## CAD Download Files
 
