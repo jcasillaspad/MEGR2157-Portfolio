@@ -36,6 +36,8 @@ The objective of this assignment is to design a mechanically operated tensile te
 
 ![Frame assembly](Screenshot%202026-11-11%20220430.png)
 
+## 2157 (FEA)
+
 ![Applied load](Screenshot%202026-11-11%20221551.png)
 
 ![Crosshead mesh](Screenshot%202026-11-11%20221751.png)
