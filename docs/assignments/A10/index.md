@@ -158,8 +158,8 @@ This showed that the modified crosshead maintained nearly the same stiffness whi
 |---|---|---|---|---|---|
 | 1 | 2 | Bronze Flanged Nut (97790A110) | $178.60 | $357.20 | [McMaster-Carr](https://www.mcmaster.com/97790A110) |
 | 2 | 2 | Carbon Steel ACME Lead Screw (98935A823) | $9.90 | $19.80 | [McMaster-Carr](https://www.mcmaster.com/98935A823) |
-| 3 | 4 (estimated) | Aluminum T-Slot Frame (906T77) | $47.92 | $191.68 | [Grainger](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
-| | | **Current Estimated Subtotal** | | **$568.68** | |
+| 3 | 4 | Aluminum T-Slot Frame (906T77) | $47.92 | $191.68 | [Grainger](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
+| | | ** Estimated Subtotal** | | **$568.68** | |
 
 ## Lessons Learned
 
