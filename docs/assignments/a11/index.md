@@ -98,6 +98,19 @@ The results showed that the stress remained below the material yield strength fo
 
 ![Crosshead engineering drawing](crossheaddrawing.png)
 
+Table of Costs 
+
+| Item | Quantity | Component | Cost/Item | Total Cost | Purchase Link |
+|---|---|---|---|---|---|
+| 1 | 2 | NEMA 34 Stepper Motor | $32.61 | $65.22 | [NEMA 34](INSERT_LINK) |
+| 2 | 2 | Acme Flange Nut | $179.00 | $358.00 | [Flange Nut](INSERT_LINK) |
+| 3 | 2 | Leadscrew | $9.90 | $19.80 | [Leadscrew](INSERT_LINK) |
+| 4 | 2 | Motor Mount | $25.00 | $50.00 | — |
+| 5 | 1 | Coupler | $25.00 | $25.00 | — |
+| 6 | 4 | Bracket | $10.92 | $43.68 | [Bracket](https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Wide-5JRU7) |
+| 7 | 4 | T-Slot Frame | $47.91 | $191.68 | [T-Slot Frame](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
+| | | | **Total Cost** | **$753.38** | |
+
 ## Lessons Learned
 
 This assignment helped us understand how the different parts of the tensile tester work together. We learned how to use motor torque to design a coupler, how to calculate the thickness of a motor mount, and how to use simulation results to study the strength of the frame.
