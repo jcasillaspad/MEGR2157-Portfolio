@@ -90,7 +90,7 @@ The results showed that the stress remained below the material yield strength fo
 
 ![Refined frame von Mises stress](Fea4.png)
 
-## Drawings
+## Engineering Drawings
 
 ![Motor mount bracket engineering drawing](drawing.png)
 
@@ -98,8 +98,8 @@ The results showed that the stress remained below the material yield strength fo
 
 ![Crosshead engineering drawing](crossheaddrawing.png)
 
+## Lessons Learned
 
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+This assignment helped us understand how the different parts of the tensile tester work together. We learned how to use motor torque to design a coupler, how to calculate the thickness of a motor mount, and how to use simulation results to study the strength of the frame.
 
-## Communicate
+We also learned that the frame connections and mounting locations affect how forces travel through the structure. Comparing our simulation results helped us understand how changes to the model can affect the stress distribution.
