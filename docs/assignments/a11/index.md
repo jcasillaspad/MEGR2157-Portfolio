@@ -44,6 +44,10 @@ We created a free-body diagram showing the torque entering the coupler from the 
 
 ![Coupler FBD and known values](IMG_0376.jpg)
 
+We used torsional shear stress to calculate the minimum coupler outside diameter. We then selected a larger diameter to provide more material around the shaft openings.
+
+The selected coupler has a 25 mm outside diameter and a minimum wall thickness of 5.5 mm.
+
 ![Coupler torsional shear calculations](IMG_0377.jpg)
 
 ![T-slot frame connector bracket](Bracket.jpeg)
