@@ -104,10 +104,14 @@ This assignment helped us understand how the different parts of the tensile test
 
 We also learned that the frame connections and mounting locations affect how forces travel through the structure. Comparing our simulation results helped us understand how changes to the model can affect the stress distribution.
 
-##SolidWorks CAD Files
+## SolidWorks CAD Files
 
 [Download Motor Coupler Drawing](MotorCoupler.SLDDRW)
+
 [Download Motor Mount Drawing](MotorMount.SLDDRW)
+
 [Download Crosshead Drawing](crosshead.SLDDRW)
+
 [Download Tensile Tester Assembly](A11_Tensile_Tester.SLDASM)
+
 [Download Crosshead](crosshead.SLDPRT)
