@@ -119,9 +119,15 @@ The following table lists the components required to construct the tensile testi
 | Person | Hours Worked | Cost/Hour | Total Cost |
 |---|---|---|---|
 | Juan Casillas | 4 | $35.00 | $140.00 |
-| Izabella | 3 | $35.00 | $105.00 |
+| Izabella Montero | 3 | $35.00 | $105.00 |
 | **Total** | **7** | | **$245.00** |
 
+
+| Cost Category | Total |
+|---|---|
+| Material Cost | $753.38 |
+| Design Cost | $245.00 |
+| **Total Project Cost** | **$998.38** |
 ### Cost Summary
 
 The estimated total material cost for the tensile testing machine is **$753.38**. This includes the stepper motors, flange nuts, leadscrews, motor mounts, coupler, brackets, and T-slot framing components.
