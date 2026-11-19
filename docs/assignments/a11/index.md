@@ -116,6 +116,12 @@ The following table lists the components required to construct the tensile testi
 | 7 | 4 | T-Slot Frame | $47.91 | $191.68 | [T-Slot Frame](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
 | | | | **Total Cost** | **$753.38** | |
 
+| Person | Hours Worked | Cost/Hour | Total Cost |
+|---|---|---|---|
+| Juan Casillas | 4 | $35.00 | $140.00 |
+| Izabella | 3 | $35.00 | $105.00 |
+| **Total** | **7** | | **$245.00** |
+
 ### Cost Summary
 
 The estimated total material cost for the tensile testing machine is **$753.38**. This includes the stepper motors, flange nuts, leadscrews, motor mounts, coupler, brackets, and T-slot framing components.
