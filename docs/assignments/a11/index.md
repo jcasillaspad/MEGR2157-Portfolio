@@ -103,3 +103,11 @@ The results showed that the stress remained below the material yield strength fo
 This assignment helped us understand how the different parts of the tensile tester work together. We learned how to use motor torque to design a coupler, how to calculate the thickness of a motor mount, and how to use simulation results to study the strength of the frame.
 
 We also learned that the frame connections and mounting locations affect how forces travel through the structure. Comparing our simulation results helped us understand how changes to the model can affect the stress distribution.
+
+##SolidWorks CAD Files
+
+[Download Motor Coupler Drawing](MotorCoupler.SLDDRW)
+[Download Motor Mount Drawing](MotorMount.SLDDRW)
+[Download Crosshead Drawing](crosshead.SLDDRW)
+[Download Tensile Tester Assembly](A11_Tensile_Tester.SLDASM)
+[Download Crosshead](crosshead.SLDPRT)
