@@ -101,9 +101,7 @@ The results showed that the stress remained below the material yield strength fo
 Table of Costs 
 
 
-## Bill of Materials (BOM)
-
-The following table lists the components required to construct the tensile testing machine, including their quantities, individual costs, total costs, and purchasing links.
+## Bill of Materials 
 
 | Item | Quantity | Component | Cost/Item | Total Cost | Purchase Link |
 |---|---|---|---|---|---|
