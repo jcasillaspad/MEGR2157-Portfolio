@@ -26,13 +26,21 @@ We created a free-body diagram showing the motor weight acting downward and the 
 
 We used the motor weight, the distance between supports, and the material strength to calculate the required plate thickness. We included a safety factor of four in our calculations.
 
-
+After calculating the minimum thickness, we selected a thicker plate to provide additional strength and support for the motor.
 
 ![Motor mount calculations](IMG_0374.jpg)
 
 ![Motor mount bending stress calculations](IMG_0378.jpg)
 
 ![Motor mounting plate dimensions](IMG_0375.jpg)
+
+## Coupler Design
+
+We designed a coupler to connect each motor shaft to its lead screw. The motor shaft and lead screw have different diameters, so the coupler uses two different bore sizes.
+
+We selected aluminum for the coupler and used the motor torque to determine the required outside diameter and wall thickness.
+
+We created a free-body diagram showing the torque entering the coupler from the motor and the resisting torque from the lead screw.
 
 ![Coupler FBD and known values](IMG_0376.jpg)
 
