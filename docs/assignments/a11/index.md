@@ -141,8 +141,7 @@ According to Machinery's Handbook, 31st Edition, page 1742, Table 2a, the recomm
 We selected two mounting holes with a center-to-center distance of 60 mm.
 
 
-
-##Table of Costs
+## Table of cost 
 
 
 ## Bill of Materials 
