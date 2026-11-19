@@ -98,7 +98,38 @@ The results showed that the stress remained below the material yield strength fo
 
 ![Crosshead engineering drawing](crossheaddrawing.png)
 
-Table of Costs 
+##Floating Bearing Mount Design
+
+We designed a floating bearing mount to support the bottom end of each lead screw in our tensile tester. The purpose of the mount is to maintain the alignment of the lead screw while allowing it to rotate freely. The mounts will attach to the bottom of the aluminum T-slot frame.
+
+Our selected lead screw is McMaster-Carr part 98935A823, a 1/2"-10 Acme carbon steel lead screw. Because the screw is fully threaded, we propose machining a smooth 3/8-inch journal at its lower end for the bearing support.
+
+We selected 6061-T6 aluminum for the mounting housing because it is lightweight, strong, corrosion-resistant, and easy to machine.
+
+The proposed dimensions are:
+
+| Feature | Selected Dimension |
+|:---|:---:|
+| Base Length | 80 mm |
+| Base Width | 40 mm |
+| Base Thickness | 8 mm |
+| Bearing Housing Diameter | 25 mm |
+| Bearing Housing Height | 20 mm |
+| Smooth Journal Diameter | 9.525 mm (3/8 in) |
+| Mounting Bolt Size | M6 |
+| Mounting Hole Diameter | 6.6 mm |
+| Mounting Hole Spacing | 60 mm |
+
+
+
+
+
+
+
+
+
+
+##Table of Costs
 
 
 ## Bill of Materials 
