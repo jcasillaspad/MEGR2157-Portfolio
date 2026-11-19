@@ -102,7 +102,9 @@ Table of Costs
 
 | Item | Quantity | Component | Cost/Item | Total Cost | Purchase Link |
 |---|---|---|---|---|---|
-| 1 | 2 | NEMA 34 Stepper Motor | $32.61 | $65.22 | [NEMA 34](INSERT_LINK) |
+| 1 | 2 | NEMA 34 Stepper Motor | $32.61 | $65.22 | 
+[NEMA 34](https://www.omc-stepperonline.com/keyway-dual-shaft-nema-34-cnc-stepper-motor-8-5nm-1204oz-in-5a-86x114mm-34hs46-5004d1)
+ |
 | 2 | 2 | Acme Flange Nut | $179.00 | $358.00 | [Flange Nut](INSERT_LINK) |
 | 3 | 2 | Leadscrew | $9.90 | $19.80 | [Leadscrew](INSERT_LINK) |
 | 4 | 2 | Motor Mount | $25.00 | $50.00 | — |
