@@ -3,6 +3,9 @@
 ## Objective
 
 
+![Tensile tester reference design](tensiletester.png)
+
+
 ## Analyze
 
 ![Motor mount FBD](IMG_0373.jpg)
@@ -32,6 +35,13 @@
 ![Refined frame von Mises stress](Fea4.png)
 
 ![Vertical frame FEA load setup](Fea2.png)
+
+![Motor mount bracket engineering drawing](drawing.png)
+
+![Motor shaft coupler engineering drawing](coupler.png)
+
+![Crosshead engineering drawing](crossheaddrawing.png)
+
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
