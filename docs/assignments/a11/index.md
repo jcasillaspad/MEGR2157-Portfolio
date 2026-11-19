@@ -100,18 +100,26 @@ The results showed that the stress remained below the material yield strength fo
 
 Table of Costs 
 
+
+## Bill of Materials (BOM)
+
+The following table lists the components required to construct the tensile testing machine, including their quantities, individual costs, total costs, and purchasing links.
+
 | Item | Quantity | Component | Cost/Item | Total Cost | Purchase Link |
 |---|---|---|---|---|---|
-| 1 | 2 | NEMA 34 Stepper Motor | $32.61 | $65.22 | 
-[NEMA 34](https://www.omc-stepperonline.com/keyway-dual-shaft-nema-34-cnc-stepper-motor-8-5nm-1204oz-in-5a-86x114mm-34hs46-5004d1)
- |
-| 2 | 2 | Acme Flange Nut | $179.00 | $358.00 | [Flange Nut](INSERT_LINK) |
-| 3 | 2 | Leadscrew | $9.90 | $19.80 | [Leadscrew](INSERT_LINK) |
+| 1 | 2 | NEMA 34 Stepper Motor | $32.61 | $65.22 | [NEMA 34](https://www.omc-stepperonline.com/keyway-dual-shaft-nema-34-cnc-stepper-motor-8-5nm-1204oz-in-5a-86x114mm-34hs46-5004d1) |
+| 2 | 2 | Acme Flange Nut | $179.00 | $358.00 | [Flange Nut](https://www.mcmaster.com/98935A823/) |
+| 3 | 2 | Leadscrew | $9.90 | $19.80 | [Leadscrew](https://www.mcmaster.com/97790A110/) |
 | 4 | 2 | Motor Mount | $25.00 | $50.00 | — |
 | 5 | 1 | Coupler | $25.00 | $25.00 | — |
 | 6 | 4 | Bracket | $10.92 | $43.68 | [Bracket](https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Wide-5JRU7) |
 | 7 | 4 | T-Slot Frame | $47.91 | $191.68 | [T-Slot Frame](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
 | | | | **Total Cost** | **$753.38** | |
+
+### Cost Summary
+
+The estimated total material cost for the tensile testing machine is **$753.38**. This includes the stepper motors, flange nuts, leadscrews, motor mounts, coupler, brackets, and T-slot framing components.
+
 
 ## Lessons Learned
 
