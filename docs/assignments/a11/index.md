@@ -98,7 +98,7 @@ The results showed that the stress remained below the material yield strength fo
 
 ![Crosshead engineering drawing](crossheaddrawing.png)
 
-##Floating Bearing Mount Design
+## Floating Bearing Mount Design
 
 We designed a floating bearing mount to support the bottom end of each lead screw in our tensile tester. The purpose of the mount is to maintain the alignment of the lead screw while allowing it to rotate freely. The mounts will attach to the bottom of the aluminum T-slot frame.
 
@@ -120,12 +120,25 @@ The proposed dimensions are:
 | Mounting Hole Diameter | 6.6 mm |
 | Mounting Hole Spacing | 60 mm |
 
+The 80 × 40 mm base was selected as a preliminary footprint for attachment to the T-slot frame. The raised cylindrical housing provides support for a plain bearing or bushing. Two mounting holes are positioned symmetrically to allow attachment with M6 bolts and compatible T-slot nuts. Their final positions must be checked against the frame geometry.
 
+RC3 Running Fit
 
+The assignment requires an RC3 precision running fit to allow the shaft to rotate with controlled clearance.
 
+Using ANSI B4.1 for a nominal 3/8-inch shaft, we selected the following dimensions:
 
+* Bore diameter: 0.3750–0.3756 in
 
+* Shaft journal diameter: 0.3741–0.3745 in
 
+Mounting Bolt Clearance Holes
+
+We selected M6 bolts to attach each mount to the lower frame.
+
+According to Machinery's Handbook, 31st Edition, page 1742, Table 2a, the recommended normal clearance-hole diameter for an M6 bolt is 6.6 mm, with a finished-hole range of 6.60–6.82 mm.
+
+We selected two mounting holes with a center-to-center distance of 60 mm.
 
 
 
